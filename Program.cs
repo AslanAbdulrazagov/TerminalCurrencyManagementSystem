@@ -6,12 +6,13 @@
         {
             string[] money = { "USD", "RUB", "TRY" };
             double[] rates = { 1.7000, 0.0187, 0.0527 };
-            int i = 0;
+            int i = 0,j=0;
             string selected,ratecode;
             bool k = false;
             int idx = 0;
             double result = 0;
             double amount = 0;
+
             while (true)
             {
 
